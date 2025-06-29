@@ -33,7 +33,7 @@ const App = () => {
         setStartNodeRow(row);
         setStartNodeCol(col);
       }
-    } else if(modifyingState === 'finish') {
+    } else if (modifyingState === 'finish') {
       const node = _grid[row][col];
       const finishNode = _grid[finishNodeRow][finishNodeCol];
 

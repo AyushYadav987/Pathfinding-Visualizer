@@ -13,6 +13,7 @@ const getNeighbours = (grid, node) => {
     { i: row, j: col + 1 },
   ];
 
+  
   for (const { i, j } of candidates) {
     if (i >= 0 && i < ROWS && j >= 0 && j < COLS && !grid[i][j].isWall && !grid[i][j].isVisited) neighbours.push(grid[i][j]);
   }

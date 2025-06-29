@@ -1,5 +1,6 @@
 import Node from "./Node";
 
+
 const Grid = ({ grid = [], onNodeClick }) => {
   return (
     <div id="grid" className="grid">

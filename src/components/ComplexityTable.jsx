@@ -17,7 +17,7 @@ const ComplexityTable = () => (
           <td>O(V)</td>
         </tr>
         <tr>
-          <td className="text-algorithm">BFS</td>
+          <td className="text-algorithm"> BFS </td>
           <td>
             O(V + E) = O(b<sup>d</sup>)
           </td>

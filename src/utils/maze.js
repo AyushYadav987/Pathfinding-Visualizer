@@ -8,6 +8,7 @@ const generate = (grid = [], ROWS = 40, COLS = 40) => {
     }
   }
 
+  
   const lookup = (x, y) => {
     if (x < 0 || y < 0 || x >= COLS || y >= ROWS) {
       return {};

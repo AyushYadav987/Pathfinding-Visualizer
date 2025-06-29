@@ -20,6 +20,7 @@ const getNeighbours = (grid, node) => {
   return neighbours;
 };
 
+
 const calculatePath = (finishNode) => {
   const path = [];
   let currentNode = finishNode;

@@ -15,4 +15,5 @@ const Node = ({ row, col, isFinish, isStart, isWall, onNodeClick }) => {
   );
 };
 
+
 export default Node;
